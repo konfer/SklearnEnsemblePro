@@ -5,7 +5,8 @@ from sklearn.base import TransformerMixin
 class CustomCutterTrans(TransformerMixin):
 	
 	def __init__(self, col = None, labels = False):
-		pass
+		self.col = col
+		self.labels = labels
 		
 	def getCol(self, col):
 		self.col = col

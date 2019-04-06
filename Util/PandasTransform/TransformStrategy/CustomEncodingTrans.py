@@ -2,9 +2,8 @@ from sklearn.base import TransformerMixin
 
 class CustomEncodingTrans(TransformerMixin):
 	
-	def __init__(self, col, ordering = None):
+	def __init__(self,  ordering = None):
 		self.ordering = ordering
-		self.col = col
 		
 	def getCol(self, col):
 		self.col = col
