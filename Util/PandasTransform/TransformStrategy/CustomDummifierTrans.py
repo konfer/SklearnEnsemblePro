@@ -3,7 +3,7 @@ import pandas as pd
 
 from sklearn.base import TransformerMixin
 
-class CunstomDummifierTrans(TransformerMixin):
+class CustomDummifierTrans(TransformerMixin):
 	
 	def __init__(self, cols = None):
 		self.cols = cols

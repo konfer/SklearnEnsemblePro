@@ -1,10 +1,9 @@
-from abc import ABC
+from abc import ABCMeta,abstractmethod
 
 
-
-class AbstractTransClass(ABC):
+class AbstractTransClass(metaclass=ABCMeta):
 	
-	@classmethod
-	def transfrom(self, df = None):
+	@abstractmethod
+	def get(self, df = None):
 		pass
 

@@ -5,6 +5,12 @@ class CustomEncodingTrans(TransformerMixin):
 	def __init__(self, col, ordering = None):
 		self.ordering = ordering
 		self.col = col
+		
+	def getCol(self, col):
+		self.col = col
+		
+	def getOrdering(self, ordering):
+		self.ordering = ordering
 	
 	def transform(self, df):
 		X = df.copy()

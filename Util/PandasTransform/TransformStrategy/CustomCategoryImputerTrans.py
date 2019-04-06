@@ -1,8 +1,11 @@
 from sklearn.base import TransformerMixin
 
-class CustomCategoryImputer(TransformerMixin):
+class CustomCategoryImputerTrans(TransformerMixin):
 	
 	def __init__(self, cols = None):
+		self.cols = cols
+		
+	def getCols(self,cols):
 		self.cols = cols
 	
 	def transform(self, df):

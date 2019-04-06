@@ -2,12 +2,19 @@
 from sklearn.base import TransformerMixin
 from sklearn.preprocessing import Imputer
 
-class CustomCategoryImputer(TransformerMixin):
+class CustomQuantitativeImputerTrans(TransformerMixin):
 	
 	def __init__(self, cols = None, strategy = 'mean'):
 		
 		self.cols = cols
 		self.strategy = strategy
+		
+	def getCols(self, cols):
+		self.cols = cols
+		
+	def getStrategy(self, strategy):
+		self.strategy = strategy
+	
 	
 	def transform(self, df):
 		

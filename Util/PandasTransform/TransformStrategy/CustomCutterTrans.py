@@ -1,11 +1,21 @@
+import pandas as pd
+
 from sklearn.base import TransformerMixin
 
-class CustomCutter(TransformerMixin):
+class CustomCutterTrans(TransformerMixin):
 	
-	def __init__(self, col, bins, labels = False):
-		self.labels = labels
+	def __init__(self, col = None, labels = False):
+		pass
+		
+	def getCol(self, col):
 		self.col = col
+		
+	def getBins(self, bins):
 		self.bins = bins
+		
+	def getLabels(self, labels):
+		self.labels = labels
+		
 	
 	def transform(self, df):
 		X = df.copy()
