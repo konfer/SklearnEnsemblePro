@@ -1,5 +1,5 @@
-from AbstractBase.AbstractTransCreator import *
-from TransformStrategy.CustomCategoryImputerTrans import *
+from PandasEnsemble.PandasTransform.AbstractBase.AbstractTransCreator import *
+from PandasEnsemble.PandasTransform.TransformStrategy.CustomCategoryImputerTrans import *
 
 class CategoryImputerGenerator(AbstractTransCreator):
 	

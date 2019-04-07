@@ -1,5 +1,5 @@
-from AbstractBase.AbstractTransCreator import *
-from TransformStrategy.CustomDummifierTrans import *
+from PandasEnsemble.PandasTransform.AbstractBase.AbstractTransCreator import *
+from PandasEnsemble.PandasTransform.TransformStrategy.CustomDummifierTrans import *
 
 class DummifierTransGenerator(AbstractTransCreator):
 	

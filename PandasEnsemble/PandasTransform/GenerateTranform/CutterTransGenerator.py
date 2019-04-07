@@ -1,5 +1,5 @@
-from AbstractBase.AbstractTransCreator import *
-from TransformStrategy.CustomCutterTrans import *
+from PandasEnsemble.PandasTransform.AbstractBase.AbstractTransCreator import *
+from PandasEnsemble.PandasTransform.TransformStrategy.CustomCutterTrans import *
 
 class CutterTransGenerator(AbstractTransCreator):
 	

@@ -1,8 +1,8 @@
-from GenerateTranform.DummifierTransGenerator import *
-from GenerateTranform.CategoryImputerGenerator import *
-from GenerateTranform.CutterTransGenerator import *
-from GenerateTranform.EncodingTransGenerator import *
-from GenerateTranform.QuantitativeImputerTransGenerator import *
+from PandasEnsemble.PandasTransform.GenerateTranform.DummifierTransGenerator import *
+from PandasEnsemble.PandasTransform.GenerateTranform.CategoryImputerGenerator import *
+from PandasEnsemble.PandasTransform.GenerateTranform.CutterTransGenerator import *
+from PandasEnsemble.PandasTransform.GenerateTranform.EncodingTransGenerator import *
+from PandasEnsemble.PandasTransform.GenerateTranform.QuantitativeImputerTransGenerator import *
 
 
 class CommonTransFactory:
