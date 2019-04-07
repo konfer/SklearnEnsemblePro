@@ -5,7 +5,7 @@ class CustomCategoryImputerTrans(TransformerMixin):
 	def __init__(self, cols = None):
 		self.cols = cols
 		
-	def getCols(self,cols):
+	def setCols(self,cols):
 		self.cols = cols
 	
 	def transform(self, df):

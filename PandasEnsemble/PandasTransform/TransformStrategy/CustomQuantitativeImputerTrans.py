@@ -9,10 +9,10 @@ class CustomQuantitativeImputerTrans(TransformerMixin):
 		self.cols = cols
 		self.strategy = strategy
 		
-	def getCols(self, cols):
+	def setCols(self, cols):
 		self.cols = cols
 		
-	def getStrategy(self, strategy):
+	def setStrategy(self, strategy):
 		self.strategy = strategy
 	
 	

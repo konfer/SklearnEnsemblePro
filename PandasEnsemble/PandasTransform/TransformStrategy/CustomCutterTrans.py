@@ -8,13 +8,13 @@ class CustomCutterTrans(TransformerMixin):
 		self.col = col
 		self.labels = labels
 		
-	def getCol(self, col):
+	def setCol(self, col):
 		self.col = col
 		
-	def getBins(self, bins):
+	def setBins(self, bins):
 		self.bins = bins
 		
-	def getLabels(self, labels):
+	def setLabels(self, labels):
 		self.labels = labels
 		
 	

@@ -9,10 +9,10 @@ class CustomDummifierTrans(TransformerMixin):
 		self.cols = cols
 		self.prefix_sep = prefix_sep
 		
-	def getCols(self, cols):
+	def setCols(self, cols):
 		self.cols = cols
 		
-	def getPrefixSep(self, prefix_sep):
+	def setPrefixSep(self, prefix_sep):
 		self.prefix_sep = self.prefix_sep
 	
 	def transform(self, X):

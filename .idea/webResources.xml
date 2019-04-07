@@ -9,6 +9,7 @@
             <path value="file://$PROJECT_DIR$/Util/PandasTransform/TransformStrategy" />
             <path value="file://$PROJECT_DIR$/Util/PandasTransform/GenerateTranform" />
             <path value="file://$PROJECT_DIR$/Util/PandasTransform/Factories" />
+            <path value="file://$PROJECT_DIR$" />
           </resourceRoots>
         </entryData>
       </entry>
